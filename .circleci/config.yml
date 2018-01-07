@@ -5,7 +5,7 @@ jobs:
       - image: circleci/node:8.9.0
     steps:
       - checkout
-      - run: yarn global add yarn
+      - run: sudo npm install --global yarn
       - run: yarn global add bs-platform
       - run: yarn
       - run: yarn test

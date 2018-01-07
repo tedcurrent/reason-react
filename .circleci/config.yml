@@ -6,5 +6,5 @@ jobs:
     steps:
       - checkout
       - run: yarn global add bs-platform
-      - run: yarn
+      - run: sudo yarn
       - run: yarn test

@@ -1,0 +1,11 @@
+machine:
+  node:
+    version: 8.9.0
+dependencies:
+  pre:
+    - yarn global add bs-platform
+  override:
+    - yarn
+test:
+  override:
+    - yarn test

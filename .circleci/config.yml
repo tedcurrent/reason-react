@@ -5,6 +5,7 @@ jobs:
       - image: circleci/node:latest
     steps:
       - checkout
+      - run: sudo chown -R $(whoami) /usr/local/
       - run: yarn global add bs-platform
       - run: yarn
       - run: yarn test

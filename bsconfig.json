@@ -6,10 +6,17 @@
       "subdirs": true
     }
   ],
-  "bs-dependencies": ["reason-react", "bs-jest", "bs-axios", "bs-json"],
+  "bs-dependencies": [
+    "reason-react",
+    "bs-jest",
+    "bs-axios",
+    "bs-json"
+  ],
   "reason": {
     "react-jsx": 2
   },
-  "bsc-flags": ["-bs-super-errors"],
+  "bsc-flags": [
+    "-bs-super-errors"
+  ],
   "refmt": 3
 }
